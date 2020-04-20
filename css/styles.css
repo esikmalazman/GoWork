@@ -1,0 +1,203 @@
+body {
+  background-color: #f4f4f4;
+  font-family: "Montserrat";
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0px 10px;
+}
+h1 {
+  font-size: 3rem;
+  font-family: "Prompt";
+}
+a {
+  color: #1b262c;
+}
+.brand-logo:hover {
+  color: #cf7500;
+}
+/* navbar section */
+#title {
+  padding: 5% 5% 5%;
+  display: inline-block;
+}
+a:link {
+  text-decoration: none;
+}
+.link:hover {
+  color: #cf7500;
+}
+.nav-list {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  padding: 0% 5%;
+  display: block;
+}
+/* showcase section */
+#showcase {
+  background-image: url("../images/workfromhome.jpg");
+  min-height: 900px;
+  background-size: cover;
+  text-align: center;
+  color: #f7f7f7;
+}
+.showcase-title {
+  font-size: 6rem;
+  padding-top: 20%;
+  font-weight: bold;
+  padding-left: 30%;
+  padding-top: 15%;
+}
+.showcase-desc {
+  font-size: 1.5rem;
+  padding-left: 25%;
+  line-height: 2;
+}
+
+.showcase-img {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+}
+
+/* benefits section */
+
+#benefits {
+  padding: 10%;
+}
+
+.benefits-box {
+  display: inline-block;
+  text-align: center;
+  line-height: 2;
+}
+
+.icon-img:hover {
+  color: #cf7500;
+}
+.benefits-box h3 {
+  padding-top: 10%;
+}
+.benefits-box p {
+  padding: 5%;
+  color: #8f8f8f;
+}
+
+/* testimonials section */
+#testimonials {
+  background-color: #323232;
+  text-align: center;
+  padding: 5% 15% 7%;
+  color: #fcf8f3;
+}
+#testimonials h2 {
+  font-size: 2.5rem;
+}
+.testimonials-image {
+  width: 15%;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+.testimonials-name {
+  margin: 8% 5% 0%;
+}
+.car-box {
+  padding: 5%;
+}
+/* featured news section*/
+
+#featured-news {
+  padding: 10% 10% 15%;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.features-title {
+  padding-bottom: 5%;
+}
+.news-img {
+  width: 35%;
+  text-align: center;
+}
+.cnn {
+  padding-top: 6%;
+}
+.dw {
+  width: 60%;
+  padding-top: 10%;
+}
+
+/* **************************************************jobs.html***************************************************** */
+/* vacancies showcase */
+
+#vacancy-showcase {
+  background-image: url("../images/travel.jpg");
+  min-height: 700px;
+  background-size: cover;
+  color: #f7f7f7;
+  text-align: center;
+}
+.vacancy-box {
+  padding-top: 5%;
+}
+.vacancy-card-header {
+  padding-top: 5%;
+  text-align: center;
+}
+.vacancy-title {
+  font-size: 6rem;
+  font-weight: bold;
+  padding-top: 11%;
+}
+.vacancy-desc {
+  font-size: 1.5rem;
+}
+.card-image-bg {
+  /* background-image: url("../images/web.jpg"); */
+  height: 45%;
+}
+/* card section */
+.card-big-box {
+  padding: 5% 15% 15%;
+}
+.card h5 {
+  font-size: 1.7rem;
+  line-height: 2;
+}
+.card-desc {
+  color: #8f8f8f;
+}
+/* footer section */
+#footer {
+  background-color: #323232;
+  color: #fcf8f3;
+  text-align: center;
+  padding: 5% 15% 1%;
+  line-height: 4;
+}
+.copyright {
+  color: #8f8f8f;
+}
+.email {
+  text-align: center;
+  padding-top: 1%;
+}
+.socmed-icon {
+  text-align: center;
+  margin: 1% 2% 2%;
+  color: #fcf8f3;
+}
+.socmed-icon:hover {
+  color: #cf7500;
+}
+
+@media (max-width: 1020px) {
+  body {
+    text-align: ;
+  }
+}
